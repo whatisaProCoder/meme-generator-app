@@ -1,9 +1,13 @@
 import "./styles.css";
+import React from "react";
+import Header from "./components/Header";
+import Meme from "./components/Meme";
 
 export default function App() {
   return (
-    <div className="App">
-      <h1>Meme Generator</h1>
+    <div>
+      <Header />
+      <Meme />
     </div>
   );
 }
